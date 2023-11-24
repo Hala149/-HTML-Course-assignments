@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Quiz4</title>
+
+    </head>
+
+    <body>  
+        <form action="test.php" method="POST">
+            <label>User Name</label><br>
+            <input type="text" placeholder="Plese Add Your Name" required>
+            <hr>
+            <label>Password</label><br>
+            <input type="password" placeholder="Plese Add Your Password">
+            <hr>
+            <label>Mobile</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678">
+            <hr>
+            <label>Email</label><br>
+            <input type="email" placeholder="Plese Add Your Email" required>
+            <hr>
+            <label>Subject</label><br>
+            <input type="text" placeholder="Plese Add Your Subject">
+            <hr>
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <hr>
+            <input type="submit" value="Send Data">
+            <input type="reset" value="Empty Data">
+
+        </form>
+    </body>
+
+</html>

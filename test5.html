@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Quiz4</title>
+
+    </head>
+
+    <body>  
+        <form action="" method="GET">
+            <label>User Name</label><br>
+            <input type="text" placeholder="Plese Add Your Name" required minlength="5" maxlength="20" autofocus>
+            <hr>
+
+            <label>Email</label><br>
+            <input type="email" placeholder="Plese Add Your Email" value="o@o.com" readonly >
+            <hr>
+            <label>Token</label><br>
+            <input type="text" id="token" name="token" value=" b92f1fc2fce391ad7af633723afd3055" hidden>
+            <hr>
+            <h1>SKILLS </h1>
+            <input type="checkbox" id="check1" name="check1" value="solve" checked>
+            <label for="check1"> Problem Solving</label><br>
+            <input type="checkbox" id="check2" name="check2" value="think">
+            <label for="check2"> Logical Thinking</label><br>
+            <input type="checkbox" id="check3" name="check3" value="search">
+            <label for="check3"> Advance Searching</label><br>
+            <input type="checkbox" id="check4" name="check4" value="plan">
+            <label for="check4"> Anlaysis Planning</label><br>
+            <hr>
+            <h1>JOB </h1>
+            <input type="radio" id="rad1" name="rad" value="f-dev">
+            <label for="rad1">  front-End Developer</label><br>
+            <input type="radio" id="rad2" name="rad" value="b-dev">
+            <label for="rad2">  Back-End Developer</label><br>
+            <input type="radio" id="rad3" name="rad" value="analyst" checked>
+            <label for="rad3"> Business Analyst</label><br>
+            <input type="radio" id="rad4" name="rad" value="manger">
+            <label for="rad4"> Project Manager</label><br>
+            <input type="radio" id="rad5" name="rad" value="master">
+            <label for="rad5"> Scrum Master</label><br>
+            <hr>
+            <label for="books">Choose Book:</label>
+            <select name="books" id="books">
+            <optgroup label="PHP">
+                <option value="volvo">v5.0</option>
+                <option value="volvo">v7.0</option>
+                <option value="volvo">v8.0</option>
+            </optgroup>
+            <optgroup label="Phython">
+                <option value="volvo">v2.0</option>
+                <option value="volvo">v3.0</option>
+                <option value="volvo">v3.9</option>
+            </optgroup>
+            </select>
+            <hr>
+            <textarea id="w3review" name="w3review" rows="20" cols="50">
+            "Write Here Why You Want To Learn Programming"
+           </textarea>
+           <hr>
+            <input type="submit" value="Send Data">
+            <input type="reset" value="Empty Data">
+
+        </form>
+    </body>
+
+</html>
